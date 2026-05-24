@@ -1,4 +1,4 @@
-# AI-Based Assistance System for Visually Impaired Individuals
+# AI-Based Assistance System for Visually Impaired people
 
 ## Overview
 
