@@ -1,0 +1,38 @@
+Depth: 
+20260212_112743_000000.npy
+
+Images: 
+20260212_112743_000000_png.rf.2a766275b182cee1e06b2bf0c30da178.jpg
+
+Labels: 
+20260212_112743_000000_png.rf.2a766275b182cee1e06b2bf0c30da178.txt
+
+
+Info params: 
+First Gen
+Depth: torch.Size([1, 1, 256, 512]), Mask: torch.Size([1, 1, 256, 512]), Coords: torch.Size([1, 8]), Class: torch.Size([1, 3])
+-----------------------------------------------------------------------------------------------------------------------------
+Total Params 			: 4,106,477
+-----------------------------------------------------------------------------------------------------------------------------
+Unsupported operator aten::add_ encountered 43 time(s)
+Unsupported operator aten::add encountered 24 time(s)
+Unsupported operator aten::relu6_ encountered 19 time(s)
+Unsupported operator aten::mul encountered 19 time(s)
+Unsupported operator aten::div encountered 19 time(s)
+Unsupported operator aten::max_pool2d encountered 1 time(s)
+Unsupported operator aten::expand_as encountered 5 time(s)
+Unsupported operator aten::_convolution_mode encountered 12 time(s)
+Unsupported operator aten::leaky_relu_ encountered 10 time(s)
+Unsupported operator aten::sigmoid encountered 2 time(s)
+The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+features.1.conv.5, features.11.conv.5, features.2.conv.5, features.3.conv.5, features.6.conv.5, features.7.conv.5
+=== FLOPs Summary ===
+Total FLOPs   : 0.16 GFLOPs
+==============================
+=== FLOPs by Operator ===
+conv                          : 0.1277 GFLOPs
+batch_norm                    : 0.0169 GFLOPs
+adaptive_avg_pool2d           : 0.0002 GFLOPs
+linear                        : 0.0008 GFLOPs
+upsample_bilinear2d           : 0.0099 GFLOPs
+==============================
