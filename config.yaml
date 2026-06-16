@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            5bvni4dex4466m4blo8ebp6xo84wfon6:
+                codePath: main.py
+                codePathLocal: main.py
+                cpu_count: 10
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "999032877056"
+                        used: "576498003968"
+                email: godofinvoker.exgt@gmail.com
+                executable: C:\Users\wadak\anaconda3\python.exe
+                gpu: NVIDIA RTX A6000
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-6ea4fe53-5254-8f29-3db6-60ce8e8e8269
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-2ffd63fa-b8dc-8d37-d521-930834e00c4a
+                host: wadaken
+                memory:
+                    total: "68391518208"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\wadak\Downloads\shimomura\main.py
+                python: CPython 3.10.9
+                root: C:\Users\wadak\Downloads\shimomura
+                startedAt: "2026-03-05T04:58:37.323732Z"
+                writerId: 5bvni4dex4466m4blo8ebp6xo84wfon6
+        m: []
+        python_version: 3.10.9
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 80
+            "2":
+                - 1
+                - 41
+                - 49
+                - 80
+            "3":
+                - 13
+                - 16
+            "4": 3.10.9
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+batch_size:
+    value: 300
+epochs:
+    value: 50
+learning_rate:
+    value: 0.00359
+model_architecture:
+    value: mobilenet_firstgen_normed
+optimizer:
+    value: Adam
+scheduler:
+    value: OneCycleLR

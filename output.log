@@ -1,0 +1,20 @@
+Epoch [1/50] Batch [0/7] Loss: 26.2167 (D: 45.6738, Coord: 1.1504, Class: 1.0791)
+Epoch [1/50] Batch [5/7] Loss: 24.4959 (D: 44.0344, Coord: 0.8619, Class: 0.7548)
+Epoch [1/50] Batch [6/7] Loss: 24.3727 (D: 43.8630, Coord: 0.8631, Class: 0.7150)
+=== Epoch [1/50] Summary ===
+Train Loss: 25.2057
+Val Loss: 23.1992 | Coord IoU: 0.2128 | Class Acc: 0.5620
+------------------------------
+--> New best model found! Saving to best_epoch.pth (Coord IoU: 0.2128)
+Traceback (most recent call last):
+  File "C:\Users\wadak\Downloads\shimomura\main.py", line 236, in <module>
+    train_model(model, train_loader, val_loader, model_name, num_epochs=50, save_dir='checkpoints')
+  File "C:\Users\wadak\Downloads\shimomura\main.py", line 197, in train_model
+    torch.save({
+  File "C:\Users\wadak\anaconda3\lib\site-packages\torch\serialization.py", line 652, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "C:\Users\wadak\anaconda3\lib\site-packages\torch\serialization.py", line 883, in _save
+    storage = storage.cpu()
+  File "C:\Users\wadak\anaconda3\lib\site-packages\torch\storage.py", line 164, in cpu
+    def cpu(self):
+KeyboardInterrupt

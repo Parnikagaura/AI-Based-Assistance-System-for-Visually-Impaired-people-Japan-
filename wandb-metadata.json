@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.10.9",
+  "startedAt":  "2026-03-05T04:58:37.323732Z",
+  "program":  "C:\\Users\\wadak\\Downloads\\shimomura\\main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "email":  "godofinvoker.exgt@gmail.com",
+  "root":  "C:\\Users\\wadak\\Downloads\\shimomura",
+  "host":  "wadaken",
+  "executable":  "C:\\Users\\wadak\\anaconda3\\python.exe",
+  "cpu_count":  10,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "999032877056",
+      "used":  "576498003968"
+    }
+  },
+  "memory":  {
+    "total":  "68391518208"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-6ea4fe53-5254-8f29-3db6-60ce8e8e8269"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-2ffd63fa-b8dc-8d37-d521-930834e00c4a"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "5bvni4dex4466m4blo8ebp6xo84wfon6"
+}
